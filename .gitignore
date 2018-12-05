@@ -1,0 +1,8 @@
+deploy_app
+deploy_app.pub
+.env
+credentials.yaml
+credentials.yml
+credentials_example.yml
+.idea/*
+.terraform
