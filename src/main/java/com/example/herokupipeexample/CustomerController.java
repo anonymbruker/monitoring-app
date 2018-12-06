@@ -56,6 +56,7 @@ public class CustomerController {
 
     @PostMapping("/")
     	Customer newCustomer(@RequestBody Customer customer) {
+        System.out.println(customer);
         registry.counter("Created a Customer").inc();
     		return customerRepository.save(customer);
     	}
